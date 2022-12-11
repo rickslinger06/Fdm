@@ -1,0 +1,67 @@
+package com.fdmGroup.model;
+
+import jakarta.persistence.CascadeType;
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+import jakarta.persistence.JoinColumn;
+import jakarta.persistence.JoinTable;
+import jakarta.persistence.ManyToMany;
+import jakarta.persistence.SequenceGenerator;
+
+@Entity
+public class Department {
+	
+	@Id
+	@GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "Department_ID_GEN")
+	@SequenceGenerator(name = "Department_ID_GEN", sequenceName = "Departmen_ID_SEQ")
+	
+	@Column(name = "dept_id")
+	private int deptId;
+	
+	
+
+	@Column(name = "dept_name",unique = true)
+	private String departNme;
+	public Department(String departNme) {
+		super();
+		this.departNme = departNme;
+	}
+	
+	
+	public Department() {
+		
+	}
+
+
+	public int getDeptId() {
+		return deptId;
+	}
+
+
+	public void setDeptId(int deptId) {
+		this.deptId = deptId;
+	}
+
+
+	public String getDepartNme() {
+		return departNme;
+	}
+
+
+	public void setDepartNme(String departNme) {
+		this.departNme = departNme;
+	}
+
+
+	@Override
+	public String toString() {
+		return "Department [deptId=" + deptId + ", departNme=" + departNme + "]";
+	}
+
+	
+	
+	
+}

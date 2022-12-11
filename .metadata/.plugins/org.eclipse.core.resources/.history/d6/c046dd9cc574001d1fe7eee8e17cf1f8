@@ -1,0 +1,30 @@
+package com.data_acess;
+
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+
+import java.sql.SQLException;
+import java.sql.Statement;
+
+public class Runner {
+
+	public static void main(String[] args) throws SQLException {
+		
+		DriverManager.registerDriver(new org.h2.Driver());
+		
+		try(Connection conn = DriverManager.getConnection("jdbc:h2:file:/Users/rickstermuyco/h2/dataBasePractice;AUTO_SERVER=TRUE","sa","test");
+				
+				Statement stmt =conn.createStatement()){
+			
+			String ddl = "DROP TABLE IF EXSISTS gift_list";
+			
+			ddl = "CREATE TABLE gifts_list(" + "ID NUMBER(4) CONSTRAINT gift_list_pk PRIMARYKEY," + "name VARCHAR2(15)," + "gift VARCHAR2(15),"
+			+ "price NUMBER(5));";
+			stmt.execute(ddl);
+			
+		}
+
+	}
+
+}

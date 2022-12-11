@@ -1,0 +1,14 @@
+package com.fdm.data;
+
+
+
+public class User{
+	
+
+	public User(int userID, String userName, String firstName, String lastName, String email, String status) {
+		// TODO Auto-generated constructor stub
+	}
+
+	
+
+}

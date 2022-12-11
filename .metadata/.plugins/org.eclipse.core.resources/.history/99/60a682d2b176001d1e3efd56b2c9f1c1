@@ -1,0 +1,17 @@
+package com.fdmgroup.one2one.unidirectional;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.Id;
+
+@Entity
+public class Pet {
+	
+	@Id
+	@GeneratedValue(strategy = GenerationType.AUTO);
+	private long id;
+	private String species;
+	private boolean canProtect;
+	
+
+}

@@ -1,0 +1,61 @@
+package com.fdmgroup;
+
+import java.util.List;
+import java.util.Optional;
+import jakarta.persistence.EntityManager;
+import jakarta.persistence.EntityManagerFactory;
+
+
+
+public class UserDao implements IUserDao{
+
+	EntityManagerFactory emf;
+	EntityManager em;
+	
+	public void persist(User user) {
+		em = emf.createEntityManager();
+		em.getTransaction().begin();
+		em.persist(user);
+		em.getTransaction().commit();
+		em.close();
+		emf.close();
+		
+	}
+	
+	
+	public UserDao(EntityManagerFactory emf) {
+		this.emf = emf;
+		
+	}
+
+
+
+	public Optional<User> findByid(int id) {
+		// TODO Auto-generated method stub
+		return Optional.empty();
+	}
+
+	public Optional<User> findByUsername(String name) {
+		// TODO Auto-generated method stub
+		return Optional.empty();
+	}
+
+	public void deleteById(int id) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void update(User user) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public List<User> findAll() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+	
+	
+	
+}

@@ -1,0 +1,5 @@
+package com.fdmgroup.UserDao;
+
+public class User {
+
+}

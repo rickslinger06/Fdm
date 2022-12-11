@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="org.eclipse.jdt.ui.last.selected.jre.kind2" value="2"/>
+	<item key="org.eclipse.jdt.ui.last.selected.execution.enviroment" value="JavaSE-12"/>
+	<item key="TypeHierarchyViewPart.hierarchyview" value="2"/>
+	<item key="TypeHierarchyViewPart.qualifiednames" value="false"/>
+	<item key="TypeHierarchyViewPart.linkeditors" value="false"/>
+	<item key="TypeHierarchyViewPart.orientation" value="3"/>
+	<item key="ProjectSelectionDialog.show_all" value="true"/>
+	<section name="org.eclipse.jdt.internal.ui.packageview.PackageExplorerPart">
+		<item key="group_libraries" value="true"/>
+		<item key="layout" value="2"/>
+		<item key="rootMode" value="1"/>
+		<item key="linkWithEditor" value="false"/>
+		<item key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0A;&lt;packageExplorer group_libraries=&quot;1&quot; layout=&quot;2&quot; linkWithEditor=&quot;0&quot; rootMode=&quot;1&quot; workingSetName=&quot;Aggregate for window 1665935249715&quot;&gt;&#x0A;&lt;customFilters userDefinedPatternsEnabled=&quot;false&quot;&gt;&#x0A;&lt;xmlDefinedFilters&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.StaticsFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.buildship.ui.packageexplorer.filter.gradle.buildfolder&quot; isEnabled=&quot;true&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.NonJavaProjectsFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer_patternFilterId_.*&quot; isEnabled=&quot;true&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.NonSharedProjectsFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.SyntheticMembersFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.ContainedLibraryFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.internal.ui.PackageExplorer.HideInnerClassFilesFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.internal.ui.PackageExplorer.EmptyInnerPackageFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.m2e.MavenModuleFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.buildship.ui.packageexplorer.filter.gradle.subProject&quot; isEnabled=&quot;true&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.ClosedProjectsFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.DeprecatedMembersFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.EmptyLibraryContainerFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.PackageDeclarationFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.ImportDeclarationFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.NonJavaElementFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.LibraryFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.CuAndClassFileFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.internal.ui.PackageExplorer.EmptyPackageFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.NonPublicFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.LocalTypesFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.FieldsFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0A;&lt;/xmlDefinedFilters&gt;&#x0A;&lt;/customFilters&gt;&#x0A;&lt;/packageExplorer&gt;"/>
+	</section>
+	<section name="completion_proposal_size">
+		<item key="contextSelector.size.x" value="315"/>
+		<item key="contextSelector.size.y" value="165"/>
+	</section>
+	<section name="quick_assist_proposal_size">
+	</section>
+	<section name="JavaElementSearchActions">
+	</section>
+	<section name="NewPackageWizardPage">
+		<item key="create_package_info_java" value="false"/>
+	</section>
+	<section name="OptionalMessageDialog.hide.">
+		<item key="org.eclipse.jdt.ui.typecomment.deprecated" value="true"/>
+		<item key="configure_problem_severity_dialog_id" value="false"/>
+	</section>
+	<section name="NewClassWizardPage">
+		<item key="create_constructor" value="false"/>
+		<item key="create_unimplemented" value="true"/>
+	</section>
+	<section name="BuildPathsPropertyPage">
+		<item key="pageIndex" value="2"/>
+	</section>
+	<section name="SourceActionDialog.constructors">
+		<item key="VisibilityModifier" value="1"/>
+		<item key="FinalModifier" value="false"/>
+		<item key="SynchronizedModifier" value="false"/>
+		<item key="Comments" value="false"/>
+	</section>
+	<section name="GenerateConstructorUsingFieldsSelectionDialog">
+		<item key="OmitCallToSuper" value="false"/>
+	</section>
+	<section name="DialogBounds_GenerateConstructorUsingFieldsSelectionDialog">
+		<item key="DIALOG_X_ORIGIN" value="215"/>
+		<item key="DIALOG_Y_ORIGIN" value="0"/>
+		<item key="DIALOG_WIDTH" value="549"/>
+		<item key="DIALOG_HEIGHT" value="617"/>
+		<item key="DIALOG_FONT_NAME" value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont"/>
+	</section>
+	<section name="SourceActionDialog.methods">
+		<item key="VisibilityModifier" value="1"/>
+		<item key="FinalModifier" value="false"/>
+		<item key="SynchronizedModifier" value="false"/>
+		<item key="Comments" value="false"/>
+		<item key="LimitElements" value="false"/>
+		<item key="IgnoreDefault" value="true"/>
+		<item key="StringStyle" value="0"/>
+		<item key="LimitValue" value="10"/>
+		<item key="SkipNull" value="false"/>
+		<item key="ToStringTemplateSelected" value="0"/>
+		<item key="InstanceOf" value="false"/>
+		<item key="Blocks" value="false"/>
+		<item key="Objects.equals &amp; Objects.hash" value="true"/>
+	</section>
+	<section name="AddGetterSetterDialog">
+		<item key="SortOrdering" value="false"/>
+		<item key="RemoveFinal" value="false"/>
+	</section>
+	<section name="DialogBounds_GetterSetterTreeSelectionDialog">
+		<item key="DIALOG_X_ORIGIN" value="312"/>
+		<item key="DIALOG_Y_ORIGIN" value="0"/>
+		<item key="DIALOG_WIDTH" value="557"/>
+		<item key="DIALOG_HEIGHT" value="636"/>
+		<item key="DIALOG_FONT_NAME" value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont"/>
+	</section>
+	<section name="DialogBounds_GenerateToStringDialog">
+		<item key="DIALOG_X_ORIGIN" value="316"/>
+		<item key="DIALOG_Y_ORIGIN" value="0"/>
+		<item key="DIALOG_WIDTH" value="549"/>
+		<item key="DIALOG_HEIGHT" value="639"/>
+		<item key="DIALOG_FONT_NAME" value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont"/>
+	</section>
+	<section name="RefactoringWizard.preview">
+		<item key="width" value="600"/>
+		<item key="height" value="400"/>
+	</section>
+	<section name="SelfEncapsulateFieldWizard">
+		<item key="GenerateJavadoc" value="false"/>
+	</section>
+	<section name="OverrideMethodDialog">
+		<item key="showtypes" value="true"/>
+	</section>
+	<section name="DialogBounds_OverrideMethodDialog">
+		<item key="DIALOG_X_ORIGIN" value="406"/>
+		<item key="DIALOG_Y_ORIGIN" value="83"/>
+		<item key="DIALOG_WIDTH" value="515"/>
+		<item key="DIALOG_HEIGHT" value="456"/>
+		<item key="DIALOG_FONT_NAME" value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont"/>
+	</section>
+	<section name="DialogBounds_GenerateHashCodeEqualsDialog">
+		<item key="DIALOG_X_ORIGIN" value="371"/>
+		<item key="DIALOG_Y_ORIGIN" value="79"/>
+		<item key="DIALOG_WIDTH" value="549"/>
+		<item key="DIALOG_HEIGHT" value="529"/>
+		<item key="DIALOG_FONT_NAME" value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont"/>
+	</section>
+	<section name="org.eclipse.ltk.ui.refactoring.settings">
+		<item key="updateSimilarElements" value="false"/>
+		<item key="updateSimilarElementsMatchStrategy" value="1"/>
+		<item key="updateTextualMatches" value="false"/>
+		<item key="updateQualifiedNames" value="false"/>
+		<item key="patterns" value="*"/>
+		<item key="renameSubpackages" value="false"/>
+	</section>
+	<section name="ProblemSeveritiesConfigurationBlock">
+		<item key="expanded0" value="false"/>
+		<item key="expanded1" value="true"/>
+		<item key="expanded2" value="false"/>
+		<item key="expanded3" value="false"/>
+		<item key="expanded4" value="false"/>
+		<item key="expanded5" value="false"/>
+		<item key="expanded6" value="false"/>
+		<item key="expanded7" value="false"/>
+		<item key="expanded8" value="false"/>
+	</section>
+	<section name="AddUnimplementedConstructorsDialog">
+		<item key="OmitCallToSuper" value="false"/>
+	</section>
+	<section name="DialogBounds_AddUnimplementedConstructorsDialog">
+		<item key="DIALOG_X_ORIGIN" value="461"/>
+		<item key="DIALOG_Y_ORIGIN" value="53"/>
+		<item key="DIALOG_WIDTH" value="549"/>
+		<item key="DIALOG_HEIGHT" value="569"/>
+		<item key="DIALOG_FONT_NAME" value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont"/>
+	</section>
+	<section name="org.eclipse.jdt.internal.ui.dialogs.FilteredTypesSelectionDialog">
+		<item key="ShowStatusLine" value="true"/>
+		<item key="History" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0A;&lt;History/&gt;"/>
+		<section name="DialogBoundsSettings">
+			<item key="DIALOG_HEIGHT" value="500"/>
+			<item key="DIALOG_WIDTH" value="600"/>
+			<item key="DIALOG_X_ORIGIN" value="-7"/>
+			<item key="DIALOG_Y_ORIGIN" value="-40"/>
+			<item key="DIALOG_FONT_NAME" value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont"/>
+		</section>
+	</section>
+	<section name="org.eclipse.jdt.internal.ui.dialogs.OpenTypeSelectionDialog2">
+		<item key="ShowStatusLine" value="true"/>
+		<item key="History" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0A;&lt;History/&gt;"/>
+	</section>
+	<section name="DialogBounds_SuperInterfaceSelectionDialog">
+		<item key="DIALOG_X_ORIGIN" value="98"/>
+		<item key="DIALOG_Y_ORIGIN" value="8"/>
+		<item key="DIALOG_WIDTH" value="391"/>
+		<item key="DIALOG_HEIGHT" value="461"/>
+		<item key="DIALOG_FONT_NAME" value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont"/>
+	</section>
+	<section name="DialogBounds_AddDelegateMethodsDialog">
+		<item key="DIALOG_X_ORIGIN" value="404"/>
+		<item key="DIALOG_Y_ORIGIN" value="106"/>
+		<item key="DIALOG_WIDTH" value="549"/>
+		<item key="DIALOG_HEIGHT" value="488"/>
+		<item key="DIALOG_FONT_NAME" value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont"/>
+	</section>
+	<section name="JavadocWizardDialog">
+		<item key="DIALOG_X_ORIGIN" value="249"/>
+		<item key="DIALOG_Y_ORIGIN" value="72"/>
+		<item key="DIALOG_WIDTH" value="858"/>
+		<item key="DIALOG_HEIGHT" value="528"/>
+		<item key="DIALOG_FONT_NAME" value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont"/>
+	</section>
+	<section name="javadoc">
+		<item key="javadoc_command_history" value="/Users/rickstermuyco/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.x86_64_18.0.2.v20221005-1040/jre/bin/javadoc"/>
+		<item key="fromStandard" value="true"/>
+		<item key="docletname" value=""/>
+		<item key="docletpath" value=""/>
+		<item key="access" value="public"/>
+		<item key="use" value="true"/>
+		<item key="author" value="true"/>
+		<item key="version" value="true"/>
+		<item key="nodeprecated" value="false"/>
+		<item key="nodeprecatedlist" value="false"/>
+		<item key="splitindex" value="true"/>
+		<item key="noindex" value="false"/>
+		<item key="notree" value="false"/>
+		<item key="nonavbar" value="false"/>
+		<item key="openinbrowser" value="false"/>
+		<item key="source" value="18"/>
+		<item key="antpath" value="/Users/rickstermuyco/eclipse-workspace/Fdm_Modules/javadoc.xml"/>
+		<item key="destdir" value="/Users/rickstermuyco/eclipse-workspace/Fdm_Modules/doc"/>
+		<section name="projects">
+			<section name="JAV-20-Review">
+				<item key="href" value=""/>
+				<item key="destdir" value="/Users/rickstermuyco/Downloads/JAV-20-Review/doc"/>
+				<item key="antpath" value="/Users/rickstermuyco/Downloads/JAV-20-Review/javadoc.xml"/>
+			</section>
+			<section name="Handling_Exception">
+				<item key="href" value=""/>
+				<item key="destdir" value="/Users/rickstermuyco/eclipse-workspace/Handling_Exception/doc"/>
+				<item key="antpath" value="/Users/rickstermuyco/eclipse-workspace/Handling_Exception/javadoc.xml"/>
+			</section>
+			<section name="BookStore">
+				<item key="href" value=""/>
+				<item key="destdir" value="/Users/rickstermuyco/eclipse-workspace/BookStore/doc"/>
+				<item key="antpath" value="/Users/rickstermuyco/eclipse-workspace/BookStore/javadoc.xml"/>
+			</section>
+			<section name="JAV-20-RomanCalculator-start">
+				<item key="href" value=""/>
+				<item key="destdir" value="/Users/rickstermuyco/Downloads/JAV-20-RomanCalculator-start/doc"/>
+				<item key="antpath" value="/Users/rickstermuyco/Downloads/JAV-20-RomanCalculator-start/javadoc.xml"/>
+			</section>
+			<section name="OOD3Day3N-22-JAV-20">
+				<item key="href" value=""/>
+				<item key="destdir" value="/Users/rickstermuyco/Desktop/OOD3Day3N-22-JAV-20/doc"/>
+				<item key="antpath" value="/Users/rickstermuyco/Desktop/OOD3Day3N-22-JAV-20/javadoc.xml"/>
+			</section>
+			<section name="exercise5-testcases">
+				<item key="href" value=""/>
+				<item key="destdir" value="/Users/rickstermuyco/Downloads/exercise5-testcases/doc"/>
+				<item key="antpath" value="/Users/rickstermuyco/Downloads/exercise5-testcases/javadoc.xml"/>
+			</section>
+			<section name="File.IO">
+				<item key="href" value=""/>
+				<item key="destdir" value="/Users/rickstermuyco/eclipse-workspace/File.IO/doc"/>
+				<item key="antpath" value="/Users/rickstermuyco/eclipse-workspace/File.IO/javadoc.xml"/>
+			</section>
+			<section name="Module11_Casting">
+				<item key="href" value=""/>
+				<item key="destdir" value="/Users/rickstermuyco/eclipse-workspace/Module11_Casting/doc"/>
+				<item key="antpath" value="/Users/rickstermuyco/eclipse-workspace/Module11_Casting/javadoc.xml"/>
+			</section>
+			<section name="OOD3Day1">
+				<item key="href" value=""/>
+				<item key="destdir" value="/Users/rickstermuyco/eclipse-workspace/OOD3Day1/doc"/>
+				<item key="antpath" value="/Users/rickstermuyco/eclipse-workspace/OOD3Day1/javadoc.xml"/>
+			</section>
+			<section name="tdd">
+				<item key="href" value=""/>
+				<item key="destdir" value="/Users/rickstermuyco/Desktop/tdd_assessment/doc"/>
+				<item key="antpath" value="/Users/rickstermuyco/Desktop/tdd_assessment/javadoc.xml"/>
+			</section>
+			<section name="comparisonExcercise">
+				<item key="href" value=""/>
+				<item key="destdir" value="/Users/rickstermuyco/eclipse-workspace/comparisonExcercise/doc"/>
+				<item key="antpath" value="/Users/rickstermuyco/eclipse-workspace/comparisonExcercise/javadoc.xml"/>
+			</section>
+			<section name="Stream.Excercise">
+				<item key="href" value=""/>
+				<item key="destdir" value="/Users/rickstermuyco/eclipse-workspace/Stream.Excercise/doc"/>
+				<item key="antpath" value="/Users/rickstermuyco/eclipse-workspace/Stream.Excercise/javadoc.xml"/>
+			</section>
+			<section name="OOD3Day2Lambdas">
+				<item key="href" value=""/>
+				<item key="destdir" value="/Users/rickstermuyco/Downloads/OOD3Day2Lambdas/doc"/>
+				<item key="antpath" value="/Users/rickstermuyco/Downloads/OOD3Day2Lambdas/javadoc.xml"/>
+			</section>
+			<section name="JAV-20-HangmanGame-start">
+				<item key="href" value=""/>
+				<item key="destdir" value="/Users/rickstermuyco/Downloads/JAV-20-HangmanGame-start/doc"/>
+				<item key="antpath" value="/Users/rickstermuyco/Downloads/JAV-20-HangmanGame-start/javadoc.xml"/>
+			</section>
+			<section name="TDD_Excercise_Practice">
+				<item key="href" value=""/>
+				<item key="destdir" value="/Users/rickstermuyco/eclipse-workspace/TDD_Excercise_Practice/doc"/>
+				<item key="antpath" value="/Users/rickstermuyco/eclipse-workspace/TDD_Excercise_Practice/javadoc.xml"/>
+			</section>
+			<section name="Fdm_Modules">
+				<item key="href" value=""/>
+				<item key="destdir" value="/Users/rickstermuyco/eclipse-workspace/Fdm_Modules/doc"/>
+				<item key="antpath" value="/Users/rickstermuyco/eclipse-workspace/Fdm_Modules/javadoc.xml"/>
+			</section>
+			<section name="OOD3Day2N-22-JAV-20">
+				<item key="href" value=""/>
+				<item key="destdir" value="/Users/rickstermuyco/Downloads/OOD3Day2Lambdas/OOD3Day2N-22-JAV-20/doc"/>
+				<item key="antpath" value="/Users/rickstermuyco/Downloads/OOD3Day2Lambdas/OOD3Day2N-22-JAV-20/javadoc.xml"/>
+			</section>
+			<section name="ComparisonsExerciseSolution">
+				<item key="href" value=""/>
+				<item key="destdir" value="/Users/rickstermuyco/Downloads/OOD3Day2Lambdas/ComparisonsExerciseSolution/doc"/>
+				<item key="antpath" value="/Users/rickstermuyco/Downloads/OOD3Day2Lambdas/ComparisonsExerciseSolution/javadoc.xml"/>
+			</section>
+			<section name="OOD2Demos">
+				<item key="href" value=""/>
+				<item key="destdir" value="/Users/rickstermuyco/Downloads/OOD2Demos/doc"/>
+				<item key="antpath" value="/Users/rickstermuyco/Downloads/OOD2Demos/javadoc.xml"/>
+			</section>
+			<section name="Module7_dependencies">
+				<item key="href" value=""/>
+				<item key="destdir" value="/Users/rickstermuyco/eclipse-workspace/Module7_dependencies/doc"/>
+				<item key="antpath" value="/Users/rickstermuyco/eclipse-workspace/Module7_dependencies/javadoc.xml"/>
+			</section>
+			<section name="Jav-20-ShoppingApplication">
+				<item key="href" value=""/>
+				<item key="destdir" value="/Users/rickstermuyco/Downloads/Jav-20-ShoppingApplication/doc"/>
+				<item key="antpath" value="/Users/rickstermuyco/Downloads/Jav-20-ShoppingApplication/javadoc.xml"/>
+			</section>
+			<section name="Module9_inheritance">
+				<item key="href" value=""/>
+				<item key="destdir" value="/Users/rickstermuyco/eclipse-workspace/Module9_inheritance/doc"/>
+				<item key="antpath" value="/Users/rickstermuyco/eclipse-workspace/Module9_inheritance/javadoc.xml"/>
+			</section>
+			<section name="Module_5_Methods">
+				<item key="href" value=""/>
+				<item key="destdir" value="/Users/rickstermuyco/eclipse-workspace/Module_5_Methods/doc"/>
+				<item key="antpath" value="/Users/rickstermuyco/eclipse-workspace/Module_5_Methods/javadoc.xml"/>
+			</section>
+			<section name="Lambda_Expression_Excercise">
+				<item key="href" value=""/>
+				<item key="destdir" value="/Users/rickstermuyco/eclipse-workspace/Lambda_Expression_Excercise/doc"/>
+				<item key="antpath" value="/Users/rickstermuyco/eclipse-workspace/Lambda_Expression_Excercise/javadoc.xml"/>
+			</section>
+			<section name="JAV-20-HangmanGame-finish">
+				<item key="href" value=""/>
+				<item key="destdir" value="/Users/rickstermuyco/Downloads/JAV-20-HangmanGame-finish/doc"/>
+				<item key="antpath" value="/Users/rickstermuyco/Downloads/JAV-20-HangmanGame-finish/javadoc.xml"/>
+			</section>
+			<section name="Module11_Polymorphism">
+				<item key="href" value=""/>
+				<item key="destdir" value="/Users/rickstermuyco/eclipse-workspace/Module11_Polymorphism/doc"/>
+				<item key="antpath" value="/Users/rickstermuyco/eclipse-workspace/Module11_Polymorphism/javadoc.xml"/>
+			</section>
+			<section name="Mockito_Sample_Hangman">
+				<item key="href" value=""/>
+				<item key="destdir" value="/Users/rickstermuyco/eclipse-workspace/Mockito_Sample_Hangman/doc"/>
+				<item key="antpath" value="/Users/rickstermuyco/eclipse-workspace/Mockito_Sample_Hangman/javadoc.xml"/>
+			</section>
+			<section name="com.fdmgroup.bankDesignProject">
+				<item key="href" value=""/>
+				<item key="destdir" value="/Users/rickstermuyco/Downloads/bankDesignProject/doc"/>
+				<item key="antpath" value="/Users/rickstermuyco/Downloads/bankDesignProject/javadoc.xml"/>
+			</section>
+			<section name="Immutable_Excercise">
+				<item key="href" value=""/>
+				<item key="destdir" value="/Users/rickstermuyco/eclipse-workspace/Immutable_Excercise/doc"/>
+				<item key="antpath" value="/Users/rickstermuyco/eclipse-workspace/Immutable_Excercise/javadoc.xml"/>
+			</section>
+			<section name="Module10_interfaces">
+				<item key="href" value=""/>
+				<item key="destdir" value="/Users/rickstermuyco/eclipse-workspace/Module10_interfaces/doc"/>
+				<item key="antpath" value="/Users/rickstermuyco/eclipse-workspace/Module10_interfaces/javadoc.xml"/>
+			</section>
+			<section name="Practice">
+				<item key="href" value=""/>
+				<item key="destdir" value="/Users/rickstermuyco/eclipse-workspace/Practice/doc"/>
+				<item key="antpath" value="/Users/rickstermuyco/eclipse-workspace/Practice/javadoc.xml"/>
+			</section>
+		</section>
+	</section>
+	<section name="org.eclipse.jdt.internal.ui.wizards.buildpaths.NewVariableEntryDialog">
+		<item key="DIALOG_X_ORIGIN" value="178"/>
+		<item key="DIALOG_Y_ORIGIN" value="115"/>
+		<item key="DIALOG_WIDTH" value="618"/>
+		<item key="DIALOG_HEIGHT" value="351"/>
+		<item key="DIALOG_FONT_NAME" value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont"/>
+	</section>
+	<section name="JavaBuildConfigurationBlock">
+		<item key="expanded0" value="true"/>
+		<item key="expanded1" value="false"/>
+		<item key="expanded2" value="false"/>
+	</section>
+</section>

@@ -1,0 +1,42 @@
+package com.fdmgroup;
+
+import java.util.List;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.Inheritance;
+import jakarta.persistence.InheritanceType;
+
+
+@Entity
+@Inheritance(strategy = InheritanceType.SINGLE_TABLE)
+public class Person extends BankCustomer{
+	
+	private String fisrtsName;
+	private String lastName;
+	
+	
+	public Person() {
+		
+	}
+
+	public Person(String fisrtsName, String lastName) {
+		this.fisrtsName = fisrtsName;
+		this.lastName = lastName;
+	}
+	public String getFisrtsName() {
+		return fisrtsName;
+	}
+	public void setFisrtsName(String fisrtsName) {
+		this.fisrtsName = fisrtsName;
+	}
+	public String getLastName() {
+		return lastName;
+	}
+	public void setLastName(String lastName) {
+		this.lastName = lastName;
+	}
+	
+	
+	
+
+}

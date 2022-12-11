@@ -1,0 +1,31 @@
+package com.fdmGroup.presentation;
+
+import com.fdmGroup.model.Department;
+
+import jakarta.persistence.EntityManager;
+import jakarta.persistence.EntityManagerFactory;
+import jakarta.persistence.Persistence;
+import utilities.Helper;
+
+public class Runner {
+
+	public static void main(String[] args) {
+		
+		EntityManagerFactory emf = Persistence.createEntityManagerFactory(Helper.PERSISTENCE_UNIT_NAME);
+		
+		Department academy = new Department("Academy");
+		Department sales = new Department("Sales");
+		
+	
+		
+		EntityManager em = emf.createEntityManager();
+		em.getTransaction().begin();
+		em.persist(academy);
+		em.persist(sales);
+		
+		em.close();
+		emf.close();
+
+	}
+
+}

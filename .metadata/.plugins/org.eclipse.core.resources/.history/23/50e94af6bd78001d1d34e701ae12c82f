@@ -1,0 +1,40 @@
+package com.fdmgroup;
+
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
+
+@Entity
+public class Company extends BankCustomer{
+	
+	@Column(unique =true, nullable =false)
+	private String name;
+	@Column(unique =true, nullable =false)
+	private long abn;
+	
+	
+	public Company() {
+		
+	}
+	
+	public Company(String address, String name, long abn) {
+		super(address);
+		this.name = name;
+		this.abn = abn;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public long getAbn() {
+		return abn;
+	}
+	public void setAbn(long abn) {
+		this.abn = abn;
+	}
+	
+	
+	
+
+}

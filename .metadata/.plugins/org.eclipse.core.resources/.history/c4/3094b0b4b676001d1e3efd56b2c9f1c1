@@ -1,0 +1,33 @@
+package com.fdmgroup;
+
+import java.util.List;
+
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+
+@Entity
+public class Trainee {
+	
+	@Id
+	private int id;
+	@Column(updatable = false)
+	private String firstName;
+	@Column(updatable = false)
+	private String lastName;
+	
+	
+	private Stream stream;
+	
+	
+	
+	
+	
+
+	
+	
+	
+	
+	
+
+}

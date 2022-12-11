@@ -1,0 +1,31 @@
+package com.fdmgroup;
+
+import jakarta.persistence.DiscriminatorValue;
+import jakarta.persistence.Entity;
+import jakarta.persistence.Table;
+
+@Entity
+@Table(name = "Account_Type")
+@DiscriminatorValue(value = "SAVINGS")
+public class SavingsAccount extends BankAccount{
+	
+	
+
+public SavingsAccount() {
+		super();
+		
+	}
+	
+
+
+public SavingsAccount(double balance, BankCustomer customer) {
+	super(balance, customer);
+}
+
+
+
+public void withdraw(double amount) {
+		
+	}
+	
+}

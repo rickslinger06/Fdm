@@ -1,0 +1,12 @@
+package com.fdmgroup;
+
+import jakarta.persistence.Entity;
+
+@Entity
+public class SavingsAccount extends BankAccount{
+
+public void withdraw(double amount) {
+		
+	}
+	
+}

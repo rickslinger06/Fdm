@@ -1,0 +1,11 @@
+package com.fdmgroup;
+
+public class CheckingAccount extends BankAccount{
+	
+	
+	
+public void withdraw(double amount) {
+		
+	}
+
+}

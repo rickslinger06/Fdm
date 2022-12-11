@@ -1,0 +1,8 @@
+package com.fdmGroup;
+
+public class FullTimeEmployee {
+	
+	private double salary;
+	
+
+}

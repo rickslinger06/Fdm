@@ -1,0 +1,9 @@
+package com.fdmgroup;
+
+public abstract class BankAccount {
+	
+	private int Id;
+	private double balance;
+	private BankCustomer customer;
+
+}

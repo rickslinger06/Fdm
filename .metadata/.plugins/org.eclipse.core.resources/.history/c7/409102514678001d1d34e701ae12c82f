@@ -1,0 +1,60 @@
+package com.fdmgroup;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import jakarta.persistence.Entity;
+
+@Entity
+public class BankCustomer {
+	
+	private int id;
+	private String address;
+	private List<BankAccount> accounts = new ArrayList<>();
+	
+	public BankCustomer() {
+		
+	}
+	
+	
+	public BankCustomer(int id, String address, List<BankAccount> accounts) {
+		super();
+		this.id = id;
+		this.address = address;
+		this.accounts = accounts;
+	}
+
+
+	public int getId() {
+		return id;
+	}
+
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+
+	public String getAddress() {
+		return address;
+	}
+
+
+	public void setAddress(String address) {
+		this.address = address;
+	}
+
+
+	public List<BankAccount> getAccounts() {
+		return accounts;
+	}
+
+
+	public void setAccounts(List<BankAccount> accounts) {
+		this.accounts = accounts;
+	}
+	
+
+	
+	
+}

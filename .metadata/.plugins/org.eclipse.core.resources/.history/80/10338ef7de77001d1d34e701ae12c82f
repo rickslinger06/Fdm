@@ -1,0 +1,11 @@
+package com.fdmGroup.model;
+
+import jakarta.persistence.Entity;
+
+@Entity
+public class Department {
+	
+	private int deptId;
+	private String departNme;
+
+}

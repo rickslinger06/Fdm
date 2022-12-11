@@ -1,0 +1,23 @@
+package com.fdm.data;
+
+public class Gift_DAO implements Pesistable{
+
+	@Override
+	public void addGift(Gift gift) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public Gift getGift(String name) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void removedGift(String name) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

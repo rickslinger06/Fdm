@@ -1,0 +1,5 @@
+package com.fdmGroup.model;
+
+public class Employee {
+
+}

@@ -1,0 +1,16 @@
+package com.fdmgroup;
+
+import jakarta.persistence.EntityManager;
+import jakarta.persistence.EntityManagerFactory;
+import jakarta.persistence.Persistence;
+import utilities.Helper;
+
+public class Runner {
+	
+	public static void main(String[] args) {
+		
+	
+
+	}
+
+}

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="/Users/rickstermuyco/Desktop/OOD3Day3N-22-JAV-20"/>
+			<item value="/Users/rickstermuyco/Desktop/tdd_assessment"/>
+			<item value="/Users/rickstermuyco/eclipse-workspace/File.IO/src"/>
+			<item value="/Users/rickstermuyco/Downloads/Mockito_Excercise_Solution"/>
+			<item value="/Users/rickstermuyco/Downloads/TDDLibrary"/>
+			<item value="/Users/rickstermuyco/eclipse-workspace/BookStore"/>
+			<item value="/Users/rickstermuyco/Downloads/OOD2Demos/src/test/java/com/fdmgroup/userregistration/RegistrationControllerTest.java"/>
+			<item value="/Users/rickstermuyco/Downloads/OOD2Demos"/>
+			<item value="/Users/rickstermuyco/Downloads/TDDBookstore"/>
+			<item value="/Users/rickstermuyco/Downloads/Jav-20-ShoppingApplication"/>
+			<item value="/Users/rickstermuyco/Downloads/JAV-20-HangmanGame-finish"/>
+			<item value="/Users/rickstermuyco/Downloads/JAV-20-HangmanGame-start"/>
+			<item value="/Users/rickstermuyco/Downloads/JAV-20-RomanCalculator-start"/>
+			<item value="/Users/rickstermuyco/Downloads/bankDesignProject"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="/Users/rickstermuyco/eclipse-workspace/Mockito_Sample_Hangman"/>
+			<item value="/Users/rickstermuyco/eclipse-workspace/JPA_excerice2"/>
+			<item value="/Users/rickstermuyco/Downloads/JpaAssessment.zip_expanded"/>
+			<item value="/Users/rickstermuyco/eclipse-workspace/JPA_excerice2/src/main/java/com/fdmgroup/Runner.java"/>
+			<item value="/Users/rickstermuyco/eclipse-workspace/Stream.Excercise/src/main/java/com/fdmgroup/streamsExercises/Runner.java"/>
+			<item value="/Users/rickstermuyco/eclipse-workspace/JPA_excercis"/>
+			<item value="/Users/rickstermuyco/eclipse-workspace/JPA_excercis/src/main/resources"/>
+			<item value="/Users/rickstermuyco/eclipse-workspace/com.fdmgroup_jpa"/>
+			<item value="/Users/rickstermuyco/eclipse-workspace/Data_access"/>
+			<item value="/Users/rickstermuyco/eclipse-workspace/OOD4_presentatiom/src/com/fdmGroup/Presentation/PrototypesTest.java"/>
+			<item value="/Users/rickstermuyco/Downloads/OOD3Day2Lambdas"/>
+			<item value="/Users/rickstermuyco/Downloads/Mockito_Excercise_Solution/pom.xml"/>
+			<item value="/Users/rickstermuyco/Downloads/JAV-20-HangmanGame-finish"/>
+			<item value="/Users/rickstermuyco/Downloads/JAV-20-HangmanGame-start"/>
+			<item value="/Users/rickstermuyco/Downloads/JAV-20-RomanCalculator-start/src/test/java/testRomanConverter"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="All Catalogs"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+		</list>
+		<list key="groupId">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+			<item value="com.fdmGroup"/>
+			<item value="com.fdmgoup"/>
+			<item value="com.fdmgroup"/>
+			<item value="com.fdmGroupJPA_excerciseDEMO"/>
+			<item value="com.fdmGroup.JPA2"/>
+			<item value="demo_jpa"/>
+		</list>
+		<list key="name">
+			<item value="JPA_excerice2"/>
+			<item value="JPA_DEMO"/>
+		</list>
+		<list key="artifactId">
+			<item value="JpaAssessment"/>
+			<item value="JPAAssessment"/>
+			<item value="Inheritance_Excercise"/>
+			<item value="JPA_EXCERCISE_DEMO"/>
+			<item value="JPA_excerice2"/>
+			<item value="JPA_DEMO"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+</section>

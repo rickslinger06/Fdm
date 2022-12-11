@@ -1,0 +1,60 @@
+package com.fdm.data;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+
+
+public class GiftDAO implements Pesistable {
+
+	private Connection conn;
+	
+	public GiftDAO(Connection conn) {
+		super();
+		this.conn = conn;
+	}
+
+	@Override
+	public void addGift(Gift gift) {
+		PreparedStatement insertStmt = null;
+		try {
+			System.out.println("Insert Statement created");
+			String insertString = "INSERT INTO gift_list (ID, name, gift, price)" +
+					"VALUES(nextval('gift_list_seq'), ?, ? , ? )";
+			insertStmt = conn.prepareStatement(insertString);
+			
+			insertStmt.setString(1, gift.getName());
+			insertStmt.setString(2, gift.getGift());
+			insertStmt.setInt(3, gift.getPrice());
+			insertStmt.executeUpdate();
+			
+			System.out.println("Executed ***************************");
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}finally {
+			try {
+				System.out.println("CLOSED ************");
+				insertStmt.close();
+			} catch (SQLException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		}
+		
+	}
+
+
+
+	@Override
+	public void removeGift(String name) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void removedGift(String name) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="NewWizardAction">
+		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.m2e.core.wizards.Maven2ProjectWizard"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="org.eclipse.jdt.ui.java"/>
+			<item value="org.eclipse.jdt.ui.java/org.eclipse.jdt.junit"/>
+			<item value="org.eclipse.m2e"/>
+		</list>
+	</section>
+	<section name="ImportExportAction">
+		<item key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID" value="org.eclipse.ui.wizards.import.ZipFile"/>
+		<item key="ImportExportPage.STORE_SELECTED_EXPORT_WIZARD_ID" value="org.eclipse.ui.wizards.export.ZipFile"/>
+		<list key="ImportExportPage.STORE_EXPANDED_IMPORT_CATEGORIES">
+			<item value="org.eclipse.ui.Basic"/>
+			<item value="org.eclipse.m2e"/>
+		</list>
+		<list key="ImportExportPage.STORE_EXPANDED_EXPORT_CATEGORIES">
+			<item value="org.eclipse.ui.Basic"/>
+		</list>
+	</section>
+	<section name="ZipFileImportWizard">
+		<item key="WizardZipFileResourceImportPage1.STORE_OVERWRITE_EXISTING_RESOURCES_ID" value="false"/>
+		<list key="WizardZipFileResourceImportPage1.STORE_SOURCE_NAMES_ID">
+			<item value="/Users/rickstermuyco/Downloads/JPARelationshipsDemo.zip"/>
+			<item value="/Users/rickstermuyco/Downloads/JPAIntro.zip"/>
+			<item value="/Users/rickstermuyco/Desktop/fdm_FILES/Solo/SoloProjectBookStorePhase1And2.zip"/>
+			<item value="/Users/rickstermuyco/Downloads/ThreadingSol.zip"/>
+			<item value="/Users/rickstermuyco/Downloads/Jav-20-Threading.zip"/>
+			<item value="/Users/rickstermuyco/Desktop/fdm_FILES/fds_excercise_assessment/Rickster_TDD_Assessment.zip"/>
+			<item value="/Users/rickstermuyco/Downloads/OOD - Module 5 - Methods - testcases.zip"/>
+			<item value="/Users/rickstermuyco/Downloads/OOD - Module 5 - Methods - advanced - testcases.zip"/>
+			<item value="/Users/rickstermuyco/Downloads/OOD1_Day3_StaticKeyword.zip"/>
+			<item value="/Users/rickstermuyco/Downloads/OOD1_Day3_Dependencies.zip"/>
+		</list>
+	</section>
+	<section name="ZipFileExportWizard">
+		<item key="WizardZipFileResourceExportPage1.STORE_CREATE_STRUCTURE_ID" value="true"/>
+		<item key="WizardZipFileResourceExportPage1.STORE_COMPRESS_CONTENTS_ID" value="true"/>
+		<list key="WizardZipFileResourceExportPage1.STORE_DESTINATION_NAMES_ID">
+			<item value="/Users/rickstermuyco/Desktop/FileIOExcerciseSol.zip"/>
+			<item value="/Users/rickstermuyco/Desktop/ThreadingExcecise.zip"/>
+			<item value="/Users/rickstermuyco/Desktop/ProtoType_Design_Pattern.zip"/>
+			<item value="/Users/rickstermuyco/Desktop/Rickster_TDD_Assessment.zip"/>
+			<item value="/Users/rickstermuyco/Desktop/Rickster_TTD_Excercise.zip"/>
+			<item value="/Users/rickstermuyco/Desktop/TDD_excercise_RICKSTER.zip"/>
+			<item value="/Users/rickstermuyco/Desktop/ShoppingBasket.zip"/>
+			<item value="/Users/rickstermuyco/Desktop/Rickster_Muyco_Bank_design_Assessment.zip"/>
+			<item value="/Users/rickstermuyco/Desktop/Assesment_Bank_Design_Rickster_Muyco.zip"/>
+			<item value="/Users/rickstermuyco/Desktop/Polymorphism_module11.zip"/>
+			<item value="/Users/rickstermuyco/Desktop/Interface_Excercise.zip"/>
+			<item value="/Users/rickstermuyco/Desktop/Module9_inheritance.zip"/>
+			<item value="/Users/rickstermuyco/Desktop/Module7_Dependency.zip"/>
+			<item value="/Users/rickstermuyco/Desktop/Module8_Static_keyword.zip"/>
+			<item value="/Users/rickstermuyco/Desktop/Arrays_Datatypes_conditionals.zip"/>
+			<item value="/Users/rickstermuyco/Desktop/Loops.zip"/>
+			<item value="/Users/rickstermuyco/Desktop/Dependencies.zip"/>
+		</list>
+	</section>
+</section>

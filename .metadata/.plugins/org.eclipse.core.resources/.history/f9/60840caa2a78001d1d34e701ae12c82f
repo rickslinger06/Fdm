@@ -1,0 +1,28 @@
+package com.fdmgroup;
+
+import java.util.List;
+
+public class BankCustomer {
+
+	
+	private int Id;
+	private String address;
+	private List<BankAccount> accounts;
+	
+	
+	public BankCustomer() {
+		
+	}
+	
+	
+	public BankCustomer(int id, String address, List<BankAccount> accounts) {
+		super();
+		Id = id;
+		this.address = address;
+		this.accounts = accounts;
+	}
+	
+	
+	
+	
+}

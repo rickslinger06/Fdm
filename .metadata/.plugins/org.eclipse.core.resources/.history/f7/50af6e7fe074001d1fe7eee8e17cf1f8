@@ -1,0 +1,36 @@
+package com.fdm.data;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+
+
+public class GiftDAO implements Pesistable {
+
+	private Connection conn;
+	
+	public GiftDAO(Connection conn) {
+		super();
+		this.conn = conn;
+
+	}
+
+	@Override
+	public void addGift(Gift gift) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public Gift getGift(String name) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void removedGift(String name) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

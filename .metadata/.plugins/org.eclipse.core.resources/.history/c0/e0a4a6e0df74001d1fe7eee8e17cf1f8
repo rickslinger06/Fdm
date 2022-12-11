@@ -1,0 +1,9 @@
+package com.fdm.data;
+
+public interface Pesistable {
+	
+	void addGift(Gift gift);
+	Gift getGift(String name);
+	void removedGift(String name);
+
+}

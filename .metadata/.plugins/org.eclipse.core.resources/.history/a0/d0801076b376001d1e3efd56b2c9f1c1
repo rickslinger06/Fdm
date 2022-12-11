@@ -1,0 +1,38 @@
+package com.fdmgroup;
+
+import java.util.List;
+
+import jakarta.persistence.Entity;
+
+@Entity
+public class Trainee {
+	
+	private int id;
+	private String name;
+	private List<Stream> streams;
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public List<Stream> getStreams() {
+		return streams;
+	}
+	public void setStreams(List<Stream> streams) {
+		this.streams = streams;
+	}
+	
+	
+	
+	
+	
+	
+
+}

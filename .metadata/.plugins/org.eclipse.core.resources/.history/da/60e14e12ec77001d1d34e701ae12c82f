@@ -1,0 +1,49 @@
+package com.fdmGroup.presentation;
+
+import com.fdmGroup.model.Department;
+import com.fdmGroup.model.Employee;
+
+import jakarta.persistence.EntityManager;
+import jakarta.persistence.EntityManagerFactory;
+import jakarta.persistence.Persistence;
+import utilities.Helper;
+
+public class Runner {
+
+	public static void main(String[] args) {
+		
+		EntityManagerFactory emf = Persistence.createEntityManagerFactory(Helper.PERSISTENCE_UNIT_NAME);
+		
+		Department academy = new Department("Academy");
+		Department sales = new Department("Sales");
+		
+		Employee emp1 = new Employee("John Doe", "Trainer");
+		Employee emp2 = new Employee("Jane Doe", "Executive");
+		Employee emp3 = new Employee("james Smith", "Trainer");
+		
+		
+		
+		EntityManager em = emf.createEntityManager();
+		em.getTransaction().begin();
+		em.persist(academy);
+		em.persist(sales);
+		em.getTransaction().commit();
+		
+		Helper.close(em);
+		
+		em = emf.createEntityManager();
+		em.getTransaction().begin();
+		em.persist(academy);
+		em.persist(sales);
+		em.getTransaction().commit();
+		
+		
+		
+		
+		
+		
+		
+		Helper.close(emf);
+	}
+
+}

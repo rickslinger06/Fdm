@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="http://java.sun.com/xml/ns/persistence"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/persistence
+http://java.sun.com/xml/ns/persistence/persistence_1_0.xsd"
+	version="1.0">	
+	<persistence-unit name="relationshipsJpa">
+		<provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+		
+<!-- 	<property name="hibernate.archive.autodetection" value="class, hbm" /> -->
+
+<!--		<class>com.fdmgroup.one2one.unidirectional.Pet</class>	
+			<class>com.fdmgroup.one2one.unidirectional.PetOwner</class>	-->
+<!--		<class>com.fdmgroup.one2one.bidirectional.Pet</class>	
+			<class>com.fdmgroup.one2one.bidirectional.PetOwner</class> -->
+<!--		<class>com.fdmgroup.Many2One.unidirectional.Pet</class>	 
+	 		<class>com.fdmgroup.Many2One.unidirectional.PetOwner</class>  -->
+<!--	 		<class>com.fdmgroup.Many2One.bidirectional.Pet</class>	
+			<class>com.fdmgroup.Many2One.bidirectional.PetOwner</class>   -->
+<!--		<class>com.fdmgroup.Many2Many.unidirectional.Pet</class>	
+			<class>com.fdmgroup.Many2Many.unidirectional.PetOwner</class> -->
+<!-- 		<class>com.fdmgroup.Many2Many.bidirectional.Pet</class>	 
+	 		<class>com.fdmgroup.Many2Many.bidirectional.PetOwner</class> -->
+		<exclude-unlisted-classes>true</exclude-unlisted-classes>
+		<properties>
+		
+
+
+			<!-- SQL stdout logging -->
+			<property name="hibernate.show_sql" value="true" />
+			<property name="hibernate.format_sql" value="true" />
+			<property name="hibernate.use_sql_comments" value="true" />
+			
+			<!-- validate, create, create-drop, update -->
+<!-- 			<property name="hibernate.hbm2ddl.auto" value="create" /> -->
+			<property name="javax.persistence.schema-generation.database.action" value="drop-and-create"/>
+	
+			<!-- SQL dialect -->
+			<property name="hibernate.dialect" value="org.hibernate.dialect.H2Dialect" />
+			
+			<!-- Connection config -->
+			<property name="hibernate.connection.driver_class" value="org.h2.Driver" />
+			<property name="hibernate.connection.url" value="jdbc:h2:file:C:\\Users\\audrey.puckett\\H2\\JPARelationshipsExamples;AUTO_SERVER=TRUE" />
+			<property name="hibernate.connection.username" value="sa" />
+			<property name="hibernate.connection.password" value="test"/>
+			
+			<!-- Connection pooling config	-->
+			<property name="hibernate.c3p0.min_size" value="2" />
+			<property name="hibernate.c3p0.max_size" value="3" />
+			<property name="hibernate.c3p0.timeout" value="300" />
+			<property name="hibernate.c3p0.max_statements" value="50" />
+			<property name="hibernate.c3p0.idle_test_period" value="3000" />
+		</properties>
+	</persistence-unit>
+
+</persistence>

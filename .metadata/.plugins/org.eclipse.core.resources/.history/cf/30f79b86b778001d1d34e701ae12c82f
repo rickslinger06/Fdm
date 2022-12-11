@@ -1,0 +1,35 @@
+package com.fdmgroup;
+
+import jakarta.persistence.EntityManager;
+import jakarta.persistence.EntityManagerFactory;
+import jakarta.persistence.Persistence;
+import utilities.Helper;
+
+public class Runner {
+	
+	
+	public static void main(String[] args) {
+		
+		EntityManagerFactory emf = Persistence.createEntityManagerFactory(Helper.PERSISTENCE_UNIT_NAME);
+		
+		
+		Person person1 =  new Person("123 Fake Street","John", "Smith");
+		
+		Company company1 = new Company("456 Real Street", "google" , 123456789);
+		
+		
+		EntityManager em = emf.createEntityManager();
+		em = emf.createEntityManager();
+		em.getTransaction().begin();
+		em.persist(person1);
+		em.persist(company1);
+		em.getTransaction().commit();
+		Helper.close(em);
+		
+		
+		
+		Helper.close(emf);
+		
+	}
+
+}

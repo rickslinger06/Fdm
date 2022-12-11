@@ -1,0 +1,15 @@
+package com.fdm.data;
+
+
+public class Ruuner {
+
+	public static void main(String[] args) {
+		
+		
+		UsersDAO user =  new UsersDAO();
+		user.listUsers();
+		
+		
+	}
+
+}

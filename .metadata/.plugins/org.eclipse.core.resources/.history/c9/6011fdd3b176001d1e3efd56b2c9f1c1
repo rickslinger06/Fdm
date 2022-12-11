@@ -1,0 +1,5 @@
+package com.fdmgroup.one2one.unidirectional;
+
+public class PetOwner {
+
+}

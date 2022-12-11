@@ -1,0 +1,16 @@
+package com.fdm.data;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+
+public class CreateTable {
+	
+	
+	private String url = "jdbc:h2:file:/Users/rickstermuyco/h2/dataBasePractice;AUTO_SERVER=TRUE";
+	private String userName = "sa";
+	private String userPass = "test";
+	
+	
+	
+
+}

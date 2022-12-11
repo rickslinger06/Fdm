@@ -1,0 +1,42 @@
+package com.fdmgroup;
+
+
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
+
+
+
+@Entity
+public class Person extends BankCustomer{
+	
+	@Column(nullable = false)
+	private String fisrtsName;
+	@Column(nullable = false)
+	private String lastName;
+	
+	
+	public Person() {
+		super();
+	}
+
+	public Person(String fisrtsName, String lastName) {
+		this.fisrtsName = fisrtsName;
+		this.lastName = lastName;
+	}
+	public String getFisrtsName() {
+		return fisrtsName;
+	}
+	public void setFisrtsName(String fisrtsName) {
+		this.fisrtsName = fisrtsName;
+	}
+	public String getLastName() {
+		return lastName;
+	}
+	public void setLastName(String lastName) {
+		this.lastName = lastName;
+	}
+	
+	
+	
+
+}

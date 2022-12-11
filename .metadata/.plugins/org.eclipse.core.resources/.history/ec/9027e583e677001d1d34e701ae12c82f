@@ -1,0 +1,28 @@
+package com.fdmGroup.presentation;
+
+import jakarta.persistence.EntityManager;
+import jakarta.persistence.EntityManagerFactory;
+import jakarta.persistence.Persistence;
+import utilities.Helper;
+
+public class Runner {
+	
+	EntityManagerFactory emf = Persistence.createEntityManagerFactory(Helper.PERSISTENCE_UNIT_NAME);
+
+	public static void main(String[] args) {
+		
+		
+		
+		Department academy = new De
+		
+		
+		
+		EntityManager em = emf.createEntityManager();
+		
+		Helper.close(em);
+				
+		Helper.close(emf);
+
+	}
+
+}

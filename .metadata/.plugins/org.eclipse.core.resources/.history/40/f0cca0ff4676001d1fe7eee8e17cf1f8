@@ -1,0 +1,104 @@
+package com.fdmgroup.UserDao;
+
+
+
+import static org.junit.Assert.assertTrue;
+
+import java.util.List;
+import java.util.Optional;
+
+import jakarta.persistence.EntityManager;
+import jakarta.persistence.EntityManagerFactory;
+import jakarta.persistence.Query;
+import jakarta.persistence.TypedQuery;
+
+public class UserDao implements IUserDao{
+	
+	
+	private EntityManagerFactory emf;
+	
+	
+	
+
+	public UserDao(EntityManagerFactory emf) {
+		super();
+		this.emf = emf;
+	}
+
+	@Override
+	public void persist(User user) {
+		EntityManager em = null;
+		
+		try {
+		em = emf.createEntityManager();
+		em.getTransaction().begin();
+		em.merge(user);
+		
+		em.getTransaction().commit();
+		}finally {
+			close(em);
+		}
+		
+	}
+
+	@Override
+	public Optional<User> findById(Integer id) {
+		// TODO Auto-generated method stub
+		return Optional.empty();
+	}
+
+	@Override
+	public Optional<User> findByUserName(String username) {
+
+		EntityManager em = null;
+		
+		try {
+		
+		TypedQuery<User>  query = em.createQuery("SELECT u FROM User u WHERE u.name = :findUsername ",User.class);
+		query.setParameter("findUsername", username);
+		Optional<User> users = query.getResultList();
+		assertTrue(users.isPresent());
+			
+		}finally {
+			close(em);
+			
+		}
+		return Optional.empty();
+	}
+
+	@Override
+	public void deleteById(int id) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void update(User user) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public List<User> findAll() {
+		EntityManager em = null;
+		List<User> returnAllUser = null;
+		
+		try {
+			em = emf.createEntityManager();
+			TypedQuery<User> query = em.createNamedQuery("findAllUsers", User.class);
+			returnAllUser = query.getResultList();
+		}finally {
+			
+			close(em);
+		}
+		return returnAllUser;
+	}
+	
+	
+	static final void close(EntityManager em) {
+		if(em != null & em.isOpen()) {
+			em.close(); // Defensive coding
+		}
+	}
+
+}

@@ -1,0 +1,51 @@
+package com.fdmGroup.model;
+
+import jakarta.persistence.CascadeType;
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
+import jakarta.persistence.JoinColumn;
+import jakarta.persistence.OneToMany;
+import jakarta.persistence.OneToOne;
+import jakarta.persistence.Table;
+
+@Entity
+@Table(name= "PartTime_employee")
+public class PartTimeEmployee  extends Employee{
+	
+	@Column(name= "Wages")
+	@JoinColumn(name= "emp_id")
+	@OneToMany(CascadeType.ALL )
+	private double salary;
+
+	
+	public PartTimeEmployee(double salary) {
+		super();
+		this.salary = salary;
+	}
+
+
+	public  PartTimeEmployee() {
+		super();
+	}
+	
+
+	public double getSalary() {
+		return salary;
+	}
+
+	public void setSalary(double salary) {
+		this.salary = salary;
+	}
+
+	@Override
+	public String toString() {
+		return "PartTimeEmployee [salary=" + salary + "]";
+	}
+	
+	
+	
+	
+	
+	
+
+}

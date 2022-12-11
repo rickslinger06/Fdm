@@ -1,0 +1,15 @@
+package com.fdmgroup;
+
+public class SavingsAccount extends BankAccount {
+	
+	
+	public SavingsAccount() {
+		
+	}
+	
+	
+public void withdraw(double amount) {
+		
+	}
+
+}

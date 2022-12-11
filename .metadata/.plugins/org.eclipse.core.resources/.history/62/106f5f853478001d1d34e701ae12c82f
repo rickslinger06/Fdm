@@ -1,0 +1,26 @@
+package com.fdmgroup;
+
+import jakarta.persistence.EntityManager;
+import jakarta.persistence.EntityManagerFactory;
+import jakarta.persistence.Persistence;
+import utilities.Helper;
+
+
+
+public class Runner {
+	
+	public static void main(String[] args) {
+		EntityManagerFactory emf;
+		
+		
+		EntityManagerFactory emf = Persistence.createEntityManagerFactory(Helper.PERSISTENCE_UNIT_NAME);
+		
+		
+		
+		Helper.close(emf);
+
+		
+
+	}
+
+}

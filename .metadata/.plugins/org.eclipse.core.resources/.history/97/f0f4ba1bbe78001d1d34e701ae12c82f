@@ -1,0 +1,40 @@
+package com.fdmgroup;
+
+import jakarta.persistence.DiscriminatorValue;
+import jakarta.persistence.Entity;
+
+
+@Entity
+@DiscriminatorValue(value = "SAVINGS")
+public class SavingsAccount extends BankAccount{
+	
+	
+
+public SavingsAccount() {
+		super();
+		
+	}
+	
+
+
+public SavingsAccount(double balance, BankCustomer customer) {
+	super(balance, customer);
+}
+
+
+
+public void withdraw(double amount) {
+		
+	}
+
+
+
+@Override
+public String toString() {
+	return "SavingsAccount [getId()=" + getId() + ", getBalance()=" + getBalance() + ", getCustomer()=" + getCustomer()
+			+ ", toString()=" + super.toString() + ", getClass()=" + getClass() + ", hashCode()=" + hashCode() + "]";
+}
+	
+
+
+}

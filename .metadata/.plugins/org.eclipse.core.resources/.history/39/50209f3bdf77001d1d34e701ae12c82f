@@ -1,0 +1,43 @@
+package com.fdmGroup.model;
+
+import jakarta.persistence.Entity;
+
+@Entity
+public class Department {
+	
+	private int deptId;
+	private String departNme;
+	public Department(int deptId, String departNme) {
+		super();
+		this.deptId = deptId;
+		this.departNme = departNme;
+	}
+	
+	
+	public Department() {
+		
+	}
+
+
+	public int getDeptId() {
+		return deptId;
+	}
+
+
+	public void setDeptId(int deptId) {
+		this.deptId = deptId;
+	}
+
+
+	public String getDepartNme() {
+		return departNme;
+	}
+
+
+	public void setDepartNme(String departNme) {
+		this.departNme = departNme;
+	}
+
+	
+	
+}

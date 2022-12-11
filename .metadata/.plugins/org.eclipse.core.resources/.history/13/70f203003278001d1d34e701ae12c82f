@@ -1,0 +1,22 @@
+package com.fdmgroup;
+
+public class CheckingAccount extends BankAccount{
+	
+public CheckingAccount() {
+		
+	}
+	
+	
+public CheckingAccount(double balance, BankCustomer customer) {
+		super(balance, customer);
+		
+	}
+
+
+public void withdraw(double amount) {
+		
+	}
+	
+	
+
+}

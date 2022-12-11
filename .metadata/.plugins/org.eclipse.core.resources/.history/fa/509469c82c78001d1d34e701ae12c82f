@@ -1,0 +1,20 @@
+package com.fdmgroup;
+
+public class Company {
+	
+	private String name;
+	private long abn;
+	
+	private Company() {
+		
+	}
+
+	public Company(String name, long abn) {
+		super();
+		this.name = name;
+		this.abn = abn;
+	}
+	
+	
+
+}

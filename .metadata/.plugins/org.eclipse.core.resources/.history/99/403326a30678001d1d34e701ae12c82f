@@ -1,0 +1,107 @@
+package com.fdmGroup.presentation;
+
+import java.util.List;
+
+import com.fdmGroup.model.Department;
+import com.fdmGroup.model.Employee;
+import com.fdmGroup.model.FullTimeEmployee;
+import com.fdmGroup.model.PartTimeEmployee;
+import jakarta.persistence.EntityManager;
+import jakarta.persistence.EntityManagerFactory;
+import jakarta.persistence.Persistence;
+import jakarta.persistence.TypedQuery;
+import utilities.Helper;
+
+public class Runner {
+
+	public static void main(String[] args) {
+		
+		EntityManagerFactory emf = Persistence.createEntityManagerFactory(Helper.PERSISTENCE_UNIT_NAME);
+		
+		Department academy = new Department("Academy");
+		Department sales = new Department("Sales");
+		
+		Employee emp1 = new Employee("John Doe", "Trainer");
+		Employee emp2 = new Employee("Jane Doe", "Executive");
+		Employee emp3 = new Employee("james Smith", "Trainer");
+		
+		FullTimeEmployee ft1 = new FullTimeEmployee(100000);
+		FullTimeEmployee ft2 = new FullTimeEmployee(120000);
+		
+		PartTimeEmployee pt1 = new PartTimeEmployee(80);
+		
+		
+		
+		
+		EntityManager em = emf.createEntityManager();
+		em.getTransaction().begin();
+		em.persist(academy);
+		em.persist(sales);
+		em.getTransaction().commit();
+		
+		Helper.close(em);
+		
+		em = emf.createEntityManager();
+		em.getTransaction().begin();
+		em.persist(emp1);
+		em.persist(emp2);
+		em.persist(emp3);
+		em.getTransaction().commit();
+		
+		Helper.close(em);
+		
+		em = emf.createEntityManager();
+		em.getTransaction().begin();
+		
+		emp1.setDept(academy);
+		emp2.setDept(sales);
+		emp3.setDept(academy);
+	
+		em.merge(emp1);
+		em.merge(emp2);
+		em.merge(emp3);
+		em.getTransaction().commit();
+		Helper.close(em);
+		
+		
+		em = emf.createEntityManager();
+		em.getTransaction().begin();
+		em.persist(ft1);
+		em.persist(ft2);
+		em.persist(pt1);
+		
+		em.getTransaction().commit();
+		
+		Helper.close(em);
+		
+		
+		em = emf.createEntityManager();
+		em.getTransaction().begin();
+		
+		
+		em.merge(ft1);
+		em.merge(ft2);
+		em.merge(pt1);
+		
+		em.getTransaction().commit();
+		
+
+		
+		TypedQuery<Employee> findAllEmployee = em.createNamedQuery("findAllEmployeeByDept", Employee.class);
+		
+		Employee emp = findAllEmployee.setParameter("deptname", "academy").getSingleResult();
+		
+		
+		System.out.println(emp);
+		
+		
+		
+		Helper.close(em);
+		
+		
+
+		
+		Helper.close(emf);
+	}
+
+}
